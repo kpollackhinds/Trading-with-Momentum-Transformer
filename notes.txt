@@ -1,0 +1,23 @@
+**Info regarding the creation of input features**
+
+- Elements of table relevant:
+    'Time' DateTime64
+    'Symbol' Nullable(String)
+    'Trade_Price' Nullable(Float64)
+    'Date' Date
+    'YearMonth' String
+
+- Look at top ~15 traded companies in S&P500 and pick 5 tickers
+
+- Working with intra-day features:
+    *aggregate to a specifc frequency (1 or 5 minute frequency)
+    *not just on previous returns, but also on the sequence of previous returns (??)
+    *difference between last highest price and current price can be a feature (draw-ups/draw-downs)
+    *from log price can compute difference between past highest price and current price if higher drawdown is 0 is not
+    something else. Can create them at different frequencies
+    *bi-power variation?
+    *take trade price closest to the beginning of period (10:50), take price at 10:51, take logs of those prices and take
+    difference
+    *take fist difference of all those prices
+
+- MACD indicators

@@ -1,0 +1,70 @@
+name: taq
+
+channels:
+- conda-forge
+- bioconda
+- anaconda
+- defaults
+dependencies:
+  -  _libgcc_mutex
+  -  blas
+  -  bzip2
+  -  ca-certificates
+  -  certifi
+  -  charset-normalizer
+  -  exchange-calendars
+  -  idna
+  -  intel-openmp
+  -  ipykernel
+  -  korean_lunar_calendar
+  -  libffi
+  -  matplotlib
+  -  mkl
+  -  mkl_fft
+  -  mkl_random
+  -  nb_conda_kernels
+  -  numpy-base
+  -  numba
+  -  openssl
+  -  packaging
+  -  pandas_market_calendars
+  -  pip
+  -  pre_commit
+  -  pycparser
+  -  pyluach
+  -  pyopenssl
+  -  pyparsing
+  -  pysocks
+  -  python
+  -  python-dateutil
+  -  python_abi
+  -  python-dotenv
+  -  pytz
+  -  requests
+  -  setuptools
+  -  scp
+  -  six
+  -  sortedcollections
+  -  scikit-learn
+  -  sqlite
+  -  tk
+  -  toolz
+  -  tzdata
+  -  tzlocal
+  -  urllib3
+  -  wheel
+  -  xz
+  -  zlib
+  - pip:
+    - brotlipy
+    - cffi
+    - configobj
+    - cryptography
+    - greenlet
+    - mkl-fft
+    - mkl-random
+    - mkl-service
+    - numpy
+    - pandas
+    - pyarrow
+prefix: C:\Users\kxfor\anaconda3\envs

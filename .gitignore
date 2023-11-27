@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+data/
+data_preprocessing/__pycache__
+.env
+personal_research/
+.DS_Store
