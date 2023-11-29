@@ -21,3 +21,34 @@
     *take fist difference of all those prices
 
 - MACD indicators
+
+
+**Things to include for presentation**
+1. Exploratory Data Analysis (EDA):
+
+    Data Summary: Begin with a summary of your dataset. This includes the time period covered, the frequency of the data (minute-level), the types of assets or securities involved, and basic statistics like mean, median, standard deviation, etc.
+    Visualizations: Use charts and plots to visually explore the data. Common visualizations for time series data include line charts of prices and volumes, histograms of returns, and box plots to show distributions. Highlight any noticeable patterns, trends, or anomalies.
+    Volatility Analysis: Since you’re dealing with high-frequency data, a look into volatility patterns would be essential. Show how volatility varies throughout the day or over the dataset period.
+    Correlation Analysis: If you’re analyzing multiple assets, consider showing correlations between their movements.
+    Handling of Missing Data: Discuss how you dealt with any missing data or outliers, referencing the techniques used (e.g., winsorization, imputation).
+
+2. First Empirical Results:
+
+    Feature Engineering: Explain the features you engineered for the momentum transformer, such as MACD indicators, normalized returns, etc. Discuss why these features are relevant for a momentum-based strategy.
+    Model Overview: Briefly introduce the momentum transformer model – its architecture, how it processes the high-frequency data, and any adaptations you made for the high-frequency context.
+    Initial Model Performance: Share the initial results of applying the model to your data. This might include predictive accuracy, backtesting results, or other relevant performance metrics.
+    Insights and Observations: Discuss any interesting findings or patterns the model revealed. This could be specific time periods where the model performed exceptionally well or poorly, or insights into market behavior captured by the model.
+    Challenges and Limitations: Be transparent about any challenges you faced, such as overfitting due to the high-frequency nature of the data or limitations in the amount of data available.
+
+3. Presentation Aids:
+
+    Slides: Prepare clear and concise slides that outline each point above. Use visual aids like charts and graphs to make your data and results easy to understand.
+    Demonstrations: If possible, include a live demonstration of your model or a walkthrough of your analysis pipeline.
+    Q&A Preparation: Anticipate questions you might be asked and prepare answers, especially regarding your methodology and findings.
+
+4. Conclusion and Next Steps:
+
+    Summary: Conclude with a summary of key takeaways from your EDA and initial model results.
+    Future Work: Outline what you plan to do next with this project. This could involve refining the model, extending the analysis period, incorporating additional data sources, or exploring different modeling techniques.
+
+The key to a successful presentation will be in effectively communicating your findings, the significance of your work, and how it contributes to understanding momentum in high-frequency trading contexts. Remember to keep your audience in mind and explain complex concepts in an accessible manner.

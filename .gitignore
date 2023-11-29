@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .ipynb_checkpoints/
 data/
 data_preprocessing/__pycache__
@@ -7,7 +6,6 @@ personal_research/
 .DS_Store
 Course_instructions.md
 notes.txt
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -145,4 +143,3 @@ data/*
 !data/pull_data.py
 !data/download_quandl_data.py
 !data/__init__.py
->>>>>>> forked_master
