@@ -1,3 +1,4 @@
+mom_trans_latest\mom_trans\aapl_preprocessed.csv
 .ipynb_checkpoints/
 data/
 data_preprocessing/__pycache__
@@ -143,3 +144,4 @@ data/*
 !data/pull_data.py
 !data/download_quandl_data.py
 !data/__init__.py
+mom_trans_latest/mom_trans/aapl_preprocessed.csv
